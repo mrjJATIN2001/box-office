@@ -6,6 +6,13 @@
   },
   "parser": "babel-eslint",
   "rules": {
+    "react/self-closing-comp": [
+      "off",
+      {
+        "component": true,
+        "html": true
+      }
+    ],
     "no-unused-vars": "off",
     "arrow-body-style": ["off", "always"],
     "no-console": [0],
